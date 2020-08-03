@@ -25,11 +25,11 @@ body, html {
 .navBar {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   /* border: 2px solid black; */
   width: 100%;
   border-top: 55px solid #313131; 
-  margin-bottom: -3%;
+  margin-bottom: -2%;
   margin-top: -5%;
 }
 
@@ -51,12 +51,12 @@ body, html {
 .links {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   font-size: 1.8em;
   margin-top: 7%;
-  margin-right: 20%;
+  margin-right: 10%;
   margin-left: 10%;
-  width: 50%;
+  width: 65%;
   height: 3vh;
   /* border: 2px solid black; */
 }
@@ -93,7 +93,7 @@ a:hover {
   background-repeat: no-repeat;
   /* margin-bottom: 20%; */
   background-size: cover;
-  padding-bottom: 5%;
+  padding-bottom: 13%;
 }
 
 @keyframes display {
@@ -129,7 +129,7 @@ a:hover {
 .pic-ctn > img {
   position: absolute;
   top: 15%;
-  left: calc(35% - 100px);
+  left: calc(30% - 100px);
   opacity: 0;
   animation: display 10s infinite;
 }
@@ -157,7 +157,7 @@ img:nth-child(5) {
 .comingSoonFlex {
   display: flex;
   flex-direction: row;
-  margin-left: 8%;
+  margin-left: 4%;
 }
 
 .gameComingSoon {
@@ -187,7 +187,7 @@ img:nth-child(5) {
   flex-direction: column;
   align-content: center;
   margin-top: 20%;
-  margin-left: 10%;
+  margin-left: 3%;
   margin-right: 20%;
 }
 
@@ -232,6 +232,29 @@ img:nth-child(5) {
   margin-top: 8%;
 }
 
+/* Lyla Photo & Emojis */
+
+.Lyla {
+  width: 100%;
+  /* border: 2px solid black; */
+  /* margin-left: %; */
+}
+
+.monsterEmoji {
+  /* border: 2px solid black; */
+  height: 20vh;
+  font-size: 10rem;
+  margin-top: 3%;
+}
+
+.LylaAndEmojis {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+  margin-top: 8%;
+}
+
 /* Contact/COA */
 
 .contactCOA {
@@ -247,7 +270,7 @@ img:nth-child(5) {
 }
 
 .ContactH1 {
-  margin-top: 12%;
+  margin-top: 8%;
   text-align: center;
 }
 
@@ -278,7 +301,7 @@ img:nth-child(5) {
   display: flex;
   justify-content: space-around;
   width: 30%;
-  margin-left: 33%;
+  margin-left: 32.2%;
   padding: 3%;
 }
 
@@ -296,4 +319,57 @@ margin-top: 3%;
 
 .WhoWeAreP {
   text-align: center;
+}
+
+/* Sales */
+
+.SalesH1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.SalesP {
+  text-align: center;
+}
+
+/* Contact */
+
+.ContactH1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2%;
+}
+
+.ContactP {
+  text-align: center;
+}
+
+/* Services */
+
+.ServicesH1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.ServicesP {
+  text-align: center;
+}
+
+.ServicesH2 {
+  text-align: center;
+}
+
+.servicesList {
+  text-align: left;
+}
+
+.servicesUL {
+  margin-left: 38%;
+}
+
+/* footer */
+
+footer {
+ text-align: center;
+ margin-bottom: 3%;
 }

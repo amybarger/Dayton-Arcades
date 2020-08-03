@@ -39,6 +39,10 @@ function App() {
       <InstagramIcon />
       </IconButton>
       </div>
+      <br></br>
+      <footer>
+      <p className="footer">&copy; {new Date().getFullYear()} Dayton Arcades and More</p>
+      </footer>
     </div>
   );
 }

@@ -12,6 +12,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram';
 import IconButton from '@material-ui/core/IconButton';
+import LylaPhoto from './LylaPic'
 
 export default function Home() {
     return (
@@ -36,6 +37,15 @@ export default function Home() {
  <h1 className="FutureH1"> We also have capabilities to modernize your machine! 🤖</h1>
  <h2 className="FutureH2"> We can add Bluetooth capability to your antique tube radio and stream music right through the original radio. Yeah, we can do cool things like that too.</h2>
  <div className="contactCOA">
+     <div className="LylaAndEmojis">
+         <div className="monsterEmoji">
+            👾 
+        </div>
+        <LylaPhoto />
+        <div className="monsterEmoji">
+        👾
+        </div>
+    </div>
  <h1 className="ContactH1"> Contact us today! 🎉</h1>
  <div className="logoBottom">
  <Logo />
