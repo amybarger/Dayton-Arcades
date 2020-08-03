@@ -1,38 +1,272 @@
-.App {
+/* #38bebc - green */
+/* #00aeef - blue */
+/* #ec276d - red */
+
+
+/* body */
+
+body, html {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+/* logo */
+
+.logoPic {
+  /* border: 2px solid black; */
+  /* width: 50px; */
+  /* height: auto; */
+  width: 30%;
+  margin-left: 10%;
+}
+
+/* navBar */
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* border: 2px solid black; */
+  width: 100%;
+  border-top: 55px solid #313131; 
+  margin-bottom: -3%;
+  margin-top: -5%;
+}
+
+.border1 {
+  border-bottom: 10px solid #ec276d;
+  opacity: 15%; 
+}
+
+.border2 {
+  opacity: 25%; 
+  border-bottom: 10px solid #00aeef;
+}
+
+.border3 {
+  opacity: 40%; 
+  border-bottom: 10px solid #38bebc;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1.8em;
+  margin-top: 7%;
+  margin-right: 20%;
+  margin-left: 10%;
+  width: 50%;
+  height: 3vh;
+  /* border: 2px solid black; */
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #38bebc;
+  /* background-color: #f4511e; */
+  border: none;
+  color:  #38bebc;
+  /* padding: 16px 32px; */
+  text-align: center;
+  font-size: 2rem;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+/* carousel */
+
+.pic1 {
+  width: 50%;
+}
+
+.pic-ctn {
+  width: 100vw; 
+  height: 500px; 
+  background-image: url("DaytonArcadesAndMore_05_web.jpg");
+  background-repeat: no-repeat;
+  /* margin-bottom: 20%; */
+  background-size: cover;
+  padding-bottom: 5%;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  width: 100vw;
+  height: 70vh;
+  /* margin-top: 5vh; */
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 15%;
+  left: calc(35% - 100px);
+  opacity: 0;
+  animation: display 10s infinite;
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+
+/* Background Pic */
+
+/* .carouselBackground {
+ 
+} */
+
+/* Game Coming Soon */
+.comingSoonFlex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+}
+
+.gameComingSoon {
+  margin-top: 3%;
+}
+
+.comingSoonH1 {
+  /* border: 2px solid black; */
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  margin-right: -30%;
+  margin-top: -5%;
+}
+
+.comingSoonH2 {
+  /* border: 2px solid black; */
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-left: 5%;
+  font-weight: initial;
+}
+
+.comingSoonText {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 20%;
+  margin-left: 10%;
+  margin-right: 20%;
+}
+
+/* Story elements */
+
+.EnthusiastsH1 {
+  margin-top: 10%;
+  background-color: #00aeef;
+  padding: 8%;
+  font-size: 4rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.EnthusiastsH2 {
+  text-align: center;
+  margin-top: 12%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ExperienceH1 {
+  margin-top: 10%;
+  background-color: #38bebc;
+  padding: 8%;
+  font-size: 4rem;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ExperienceH2 {
+  text-align: center;
+  margin-top: 12%;
+}
+
+.FutureH1 {
+  margin-top: 10%;
+  background-color: #ec276d;
+  padding: 8%;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.FutureH2 {
+  text-align: center;
+  margin-top: 8%;
+}
+
+/* Contact/COA */
+
+.contactCOA {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-content: center;
+}
+
+.logoBottom {
+  margin-left: 33%;
+  margin-bottom: -8%;
+  margin-top: 3%;
+}
+
+.ContactH1 {
+  margin-top: 12%;
+  text-align: center;
+}
+
+/* navBar Bottom */
+
+.navBarBottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+  font-size: 1.8em;
+  margin-top: 8%;
+  /* margin-right: 20%;
+  margin-left: 10%; */
+  height: 3vh;
+  background-color: #313131;
+  padding: 5%;
+}
+
+.link2 {
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
