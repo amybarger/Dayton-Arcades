@@ -270,3 +270,30 @@ img:nth-child(5) {
 .link2 {
   color: white;
 }
+
+/* Social Icons */
+
+.socialIcons {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin-left: 33%;
+  padding: 3%;
+}
+
+/* About */
+
+.aboutCoverImg {
+width: 100%;
+margin-top: 3%;
+}
+
+.WhoWeAre {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.WhoWeAreP {
+  text-align: center;
+}

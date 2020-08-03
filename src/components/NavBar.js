@@ -10,8 +10,9 @@ function NavBar() {
         <div className="navBar">
             <Logo />
             <div className="links">
-            {/* <Link to="/Home">Home</Link> */}
+            <Link to="/">Home</Link>
             <Link to="/Services">Services</Link>
+            <Link to="/Sales">Sales</Link>
             <Link to="/About">About</Link>
             <Link to="/Contact">Contact</Link>
             </div>
