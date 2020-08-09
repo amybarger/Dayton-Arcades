@@ -32,16 +32,16 @@ function App() {
       <IconButton href="https://www.facebook.com/DaytonArcadesAndMore/" target="_blank">
       <FacebookIcon />
       </IconButton> 
-      <IconButton href="">
+      <IconButton href="https://twitter.com/DaytonArcades" target="_blank">
       <TwitterIcon />
       </IconButton >
-      <IconButton href="">
+      <IconButton href="https://www.instagram.com/daytonarcadesandmore/" target="_blank">
       <InstagramIcon />
       </IconButton>
       </div>
       <br></br>
       <footer>
-      <p className="footer">&copy; {new Date().getFullYear()} Dayton Arcades and More</p>
+      <p className="footer">&copy; {new Date().getFullYear()} Dayton Arcades and More, LLC</p>
       </footer>
     </div>
   );

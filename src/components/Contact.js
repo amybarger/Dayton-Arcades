@@ -10,6 +10,7 @@ export default function Contact() {
             <p className="ContactP">Reach out to us in any of the ways convenient to you, below!</p>
             <p className="ContactP"><b>Call: 937.949.8803</b></p>
             <p className="ContactP"><b>Email: info@daytonarcadesandmore.com</b></p>
+            <p className="ContactP">We are located at 1712 Springfield St. Dayton, OH 45403</p>
         </div>
     )
 }

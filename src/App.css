@@ -2,13 +2,12 @@
 /* #00aeef - blue */
 /* #ec276d - red */
 
-
 /* body */
 
-body, html {
-  font-family: 'Quicksand', sans-serif;
+body,
+html {
+  font-family: "Quicksand", sans-serif;
 }
-
 
 /* logo */
 
@@ -28,24 +27,27 @@ body, html {
   justify-content: space-evenly;
   /* border: 2px solid black; */
   width: 100%;
-  border-top: 55px solid #313131; 
+  border-top: 55px solid #313131;
   margin-bottom: -2%;
   margin-top: -5%;
 }
 
 .border1 {
   border-bottom: 10px solid #ec276d;
-  opacity: 15%; 
+  opacity: 15%;
+  width: 100%;
 }
 
 .border2 {
-  opacity: 25%; 
+  opacity: 25%;
   border-bottom: 10px solid #00aeef;
+  width: 100%;
 }
 
 .border3 {
-  opacity: 40%; 
+  opacity: 40%;
   border-bottom: 10px solid #38bebc;
+  width: 100%;
 }
 
 .links {
@@ -71,7 +73,7 @@ a:hover {
   color: #38bebc;
   /* background-color: #f4511e; */
   border: none;
-  color:  #38bebc;
+  color: #38bebc;
   /* padding: 16px 32px; */
   text-align: center;
   font-size: 2rem;
@@ -83,12 +85,12 @@ a:hover {
 /* carousel */
 
 .pic1 {
-  width: 50%;
+  width: 100%;
 }
 
 .pic-ctn {
-  width: 100vw; 
-  height: 500px; 
+  width: 100%;
+  height: 500px;
   background-image: url("DaytonArcadesAndMore_05_web.jpg");
   background-repeat: no-repeat;
   /* margin-bottom: 20%; */
@@ -121,7 +123,7 @@ a:hover {
 
 .pic-ctn {
   position: relative;
-  width: 100vw;
+  width: 100%;
   height: 70vh;
   /* margin-top: 5vh; */
 }
@@ -157,11 +159,16 @@ img:nth-child(5) {
 .comingSoonFlex {
   display: flex;
   flex-direction: row;
-  margin-left: 4%;
+  /* margin-left: 4%; */
+  margin-top: -10%;
+  /* border: 2px solid black; */
+  width: 100%;
 }
 
 .gameComingSoon {
   margin-top: 3%;
+  width: 100%;
+  /* border: 2px solid black; */
 }
 
 .comingSoonH1 {
@@ -170,7 +177,7 @@ img:nth-child(5) {
   text-align: center;
   font-size: 6rem;
   margin-right: -30%;
-  margin-top: -5%;
+  margin-top: 20%;
 }
 
 .comingSoonH2 {
@@ -178,7 +185,7 @@ img:nth-child(5) {
   width: 100%;
   text-align: center;
   font-size: 2.5rem;
-  margin-left: 5%;
+  /* margin-left: 2%; */
   font-weight: initial;
 }
 
@@ -187,23 +194,29 @@ img:nth-child(5) {
   flex-direction: column;
   align-content: center;
   margin-top: 20%;
-  margin-left: 3%;
-  margin-right: 20%;
+  margin-left: 1%;
+  margin-right: 33%;
+  width: 100%;
+  /* border: 2px solid black; */
 }
 
 /* Story elements */
 
 .EnthusiastsH1 {
-  margin-top: 10%;
+  /* margin-top: 10%; */
   background-color: #00aeef;
   padding: 8%;
   font-size: 4rem;
   text-align: center;
+  width: 100%;
 }
 
 .EnthusiastsH2 {
   text-align: center;
   margin-top: 12%;
+  width: 100%;
+
+  /* border: 2px solid black; */
 }
 
 .ExperienceH1 {
@@ -212,11 +225,13 @@ img:nth-child(5) {
   padding: 8%;
   font-size: 4rem;
   text-align: center;
+  width: 100%;
 }
 
 .ExperienceH2 {
   text-align: center;
   margin-top: 12%;
+  width: 100%;
 }
 
 .FutureH1 {
@@ -225,11 +240,13 @@ img:nth-child(5) {
   padding: 8%;
   font-size: 4rem;
   text-align: center;
+  width: 100%;
 }
 
 .FutureH2 {
   text-align: center;
   margin-top: 8%;
+  width: 100%;
 }
 
 /* Lyla Photo & Emojis */
@@ -238,6 +255,7 @@ img:nth-child(5) {
   width: 100%;
   /* border: 2px solid black; */
   /* margin-left: %; */
+  margin-bottom: 5%;
 }
 
 .monsterEmoji {
@@ -261,17 +279,18 @@ img:nth-child(5) {
   display: flex;
   flex-direction: column;
   align-content: center;
+  border: 2px solid black;
 }
 
 .logoBottom {
-  margin-left: 33%;
-  margin-bottom: -8%;
-  margin-top: 3%;
+  border: 2px solid black;
+  /* margin-right: 20%; */
 }
 
 .ContactH1 {
-  margin-top: 8%;
+  margin-top: 25%;
   text-align: center;
+  border: 2px solid black;
 }
 
 /* navBar Bottom */
@@ -308,8 +327,8 @@ img:nth-child(5) {
 /* About */
 
 .aboutCoverImg {
-width: 100%;
-margin-top: 3%;
+  width: 100%;
+  margin-top: 3%;
 }
 
 .WhoWeAre {
@@ -330,6 +349,30 @@ margin-top: 3%;
 
 .SalesP {
   text-align: center;
+}
+
+.currentSalesH1 {
+  margin-top: 10%;
+  background-color: #ec276d;
+  padding: 8%;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: -5%;
+}
+
+.fb-post {
+  /* margin-left: 20%; */
+  margin-top: 5%;
+
+  width: 100%;
+  background-image: url("DaytonArcadesAndMore_05_web.jpg");
+  background-repeat: no-repeat;
+  /* margin-bottom: 20%; */
+  background-size: cover;
+  padding-bottom: 13%;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5%;
 }
 
 /* Contact */
@@ -370,6 +413,6 @@ margin-top: 3%;
 /* footer */
 
 footer {
- text-align: center;
- margin-bottom: 3%;
+  text-align: center;
+  margin-bottom: 3%;
 }
