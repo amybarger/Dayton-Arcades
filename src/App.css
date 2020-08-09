@@ -205,7 +205,8 @@ img:nth-child(5) {
 .EnthusiastsH1 {
   /* margin-top: 10%; */
   background-color: #00aeef;
-  padding: 8%;
+  padding-top: 8%;
+  padding-bottom: 8%;
   font-size: 4rem;
   text-align: center;
   width: 100%;
@@ -222,7 +223,8 @@ img:nth-child(5) {
 .ExperienceH1 {
   margin-top: 10%;
   background-color: #38bebc;
-  padding: 8%;
+  padding-top: 8%;
+  padding-bottom: 8%;
   font-size: 4rem;
   text-align: center;
   width: 100%;
@@ -237,7 +239,8 @@ img:nth-child(5) {
 .FutureH1 {
   margin-top: 10%;
   background-color: #ec276d;
-  padding: 8%;
+  padding-top: 8%;
+  padding-bottom: 8%;
   font-size: 4rem;
   text-align: center;
   width: 100%;
@@ -246,7 +249,8 @@ img:nth-child(5) {
 .FutureH2 {
   text-align: center;
   margin-top: 8%;
-  width: 100%;
+  width: 80%;
+  margin-left: 10%;
 }
 
 /* Lyla Photo & Emojis */
@@ -279,18 +283,20 @@ img:nth-child(5) {
   display: flex;
   flex-direction: column;
   align-content: center;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 
 .logoBottom {
-  border: 2px solid black;
-  /* margin-right: 20%; */
+  /* border: 2px solid black; */
+  margin-left: -5%;
+  width: 100%;
+  text-align: center;
 }
 
 .ContactH1 {
   margin-top: 25%;
   text-align: center;
-  border: 2px solid black;
+  /* border: 2px solid black;*/
 }
 
 /* navBar Bottom */
@@ -363,16 +369,16 @@ img:nth-child(5) {
 .fb-post {
   /* margin-left: 20%; */
   margin-top: 5%;
-
   width: 100%;
   background-image: url("DaytonArcadesAndMore_05_web.jpg");
   background-repeat: no-repeat;
-  /* margin-bottom: 20%; */
+  margin-bottom: -3%;
   background-size: cover;
   padding-bottom: 13%;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   text-align: center;
-  padding: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 /* Contact */
