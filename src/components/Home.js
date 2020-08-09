@@ -59,6 +59,31 @@ export default function Home() {
               Tuesday, July 28, 2020
             </a>
           </blockquote>
+          <div
+            class="fb-post"
+            data-href="https://www.facebook.com/DaytonArcadesAndMore/posts/125721672558255"
+            data-show-text="true"
+            data-width=""
+          >
+            <blockquote
+              cite="https://developers.facebook.com/DaytonArcadesAndMore/posts/125721672558255"
+              class="fb-xfbml-parse-ignore"
+            >
+              <p>
+                Wild Riders arcade game ready to go! The picture(crt) is very
+                good for the age. The cabinet has some cosmetic issues but
+                overall looks good. Solid game stop by and take a ride! $1200.00
+              </p>
+              Posted by{" "}
+              <a href="https://www.facebook.com/DaytonArcadesAndMore/">
+                Dayton Arcades and More LLC
+              </a>{" "}
+              on&nbsp;
+              <a href="https://developers.facebook.com/DaytonArcadesAndMore/posts/125721672558255">
+                Friday, August 7, 2020
+              </a>
+            </blockquote>
+          </div>
         </div>
       </div>
       <h1 className="EnthusiastsH1">
